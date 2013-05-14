@@ -1,3 +1,5 @@
+![Flat UI Pro](images/flat-ui-pro.jpg)
+
 Flat-UI-Pro-Support
 ===================
 
