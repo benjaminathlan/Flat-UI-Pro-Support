@@ -54,7 +54,7 @@ Let's go from top to the bottom of this list.
 
 **fonts/** — yes, this is an icon font. When integrating make sure you copied all font files correctly. You might want to change/add glyphs. If so, open [IcoMoon](http://icomoon.io/app) and import `icomoon-session.json` there to make all glyhps editable.
 
-![IcoMoon](http://take.ms/wzfgEz)
+![IcoMoon](images/ico-moon.png?raw=true)
 
 **images/** — unfortunately we should use them in few cases. The rest is in the glyphs.
 
