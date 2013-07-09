@@ -71,26 +71,35 @@ Let's go from top to the bottom of this list.
 
 How to customize color palette
 ==============================
+
 1. Open `less/config.less`
 2. Find **Main Colors** section
 3. Change colors by providing your own values instead of the default ones:
+
 ``` css
     @base: #000; /* Base color(used for the default text color) */
-    @firm: green; /* Used for highlighting. Same meaning as `primary` in Bootstrap */
-
+    @firm: green; /* Used for highlighting. Same meaning as primary in Bootstrap */
     @gray: #666; /* Just a shade of gray */
     @lightgray: #999; /* Another shade of gray */
     @inverse: white; /* For highlighting when background color is @base for example */
-
     @success: darkgreen; /* For success messaging/notifications */
     @danger: red; /* For negative messaging/notificatin */
     @warning: yellow; /* For warnings */
     @info: lightblue; /* For notifications */
-
     @link-color: blue; /* Default link color */
     @link-hover-color: navy; /* Link color on hover */
 ```
-4. Recompile `less/` folder (Using CodeKit for example).
+
+**Recompile `less/` folder (Using [CodeKit](http://incident57.com/codekit/) for example).**
+
+If you need to change, for example, `@base` color to be applied across one particular Module(`less/modules/*.less`):
+
+1. Open less file
+2. In the begining add an override for this variable:
+``` css
+    @base: yellow;
+```
+3. Now all occurancies of @base within this file will give you yellow instead of the default value provided in `config.less`.
 
 New Components
 ==============
