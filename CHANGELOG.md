@@ -15,3 +15,10 @@ Changelog
 11. Bootstrap updated to 2.3.2
 
 For more detailed report visit our [v1.1 issues page](https://github.com/designmodo/Flat-UI-Pro-Support/issues?labels=v1.1&page=1&state=closed)
+
+
+### v1.1.3
+1. Added component documentation (components.html)
+2. Fixed bug where `.dropdown` was broken in `.pagination-minimal`
+3. Added a link on how to add/change glyphs in Flat UI Icons font to `documentation.html`
+4. Added cross-link to `components.html` on `documentation.html`
